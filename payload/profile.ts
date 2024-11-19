@@ -1,5 +1,5 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
+import {faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -18,8 +18,8 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'tux@linux.org',
-      link: 'mailto:tux@linux.org',
+      title: 'namju890@naver.com',
+      link: 'mailto:namju890@naver.com',
       icon: faEnvelope,
     },
     {
@@ -32,8 +32,8 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/groups/ubuntu.ko',
-      icon: faFacebook,
+      link: 'https://www.linkedin.com/in/%EB%82%A8%EA%B7%9C-%EB%B0%95-7ab836219/',
+      icon: faLinkedin,
     },
   ],
   notice: {
