@@ -3,7 +3,9 @@ import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
-import image from '../asset/sample_tux.png';
+//import image from '../asset/sample_tux.png';
+import image from '../asset/sample_2.png';
+
 
 const profile: IProfile.Payload = {
   disable: false,
@@ -11,8 +13,8 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Tux Linux Penguin',
-    small: '(Tux)',
+    title: '박남규',
+    small: '(Namgyu Park)',
   },
   contact: [
     {
