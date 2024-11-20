@@ -1,5 +1,5 @@
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
-import {faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { IProfile } from '../component/profile/IProfile';
@@ -27,10 +27,10 @@ const profile: IProfile.Payload = {
       icon: faPhone,
       badge: true,
     },
-    {
-      link: 'https://github.com/uyu423/resume-nextjs',
-      icon: faGithub,
-    },
+    // {
+    //   link: 'https://github.com/uyu423/resume-nextjs',
+    //   icon: faGithub,
+    // },
     {
       link: 'https://www.linkedin.com/in/%EB%82%A8%EA%B7%9C-%EB%B0%95-7ab836219/',
       icon: faLinkedin,

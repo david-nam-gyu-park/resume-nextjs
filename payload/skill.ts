@@ -30,6 +30,51 @@ const programmingLanguages: ISkill.Skill = {
   ],
 };
 
+const CloudPlatform: ISkill.Skill = {
+  category: 'Cloud Platform',
+  items: [
+    {
+      title: 'AWS',
+      level: 3,
+    },
+    {
+      title: 'GCP',
+      level: 2,
+    }
+  ],
+};
+
+
+const virtualization: ISkill.Skill = {
+  category: 'Virtualization',
+  items: [
+    {
+      title: 'kubernetes',
+      level: 3,
+    },
+    {
+      title: 'Docker',
+      level: 3,
+    },
+    {
+      title: 'KVM',
+      level: 3,
+    },
+    // {
+    //   title: 'Xen',
+    //   level: 2,
+    // },
+    {
+      title: 'VirtualBox',
+      level: 2,
+    },
+    {
+      title: 'VMware ESXi',
+      level: 1,
+    },
+  ],
+};
+
 const kernelDevelopment: ISkill.Skill = {
   category: 'Kernel Development',
   items: [
@@ -52,47 +97,64 @@ const kernelDevelopment: ISkill.Skill = {
   ],
 };
 
-const virtualization: ISkill.Skill = {
-  category: 'Virtualization',
-  items: [
-    {
-      title: 'Docker',
-      level: 3,
-    },
-    {
-      title: 'KVM',
-      level: 3,
-    },
-    {
-      title: 'Xen',
-      level: 2,
-    },
-    {
-      title: 'VirtualBox',
-      level: 2,
-    },
-    {
-      title: 'VMware ESXi',
-      level: 1,
-    },
-  ],
-};
+
+// const DataEngineering: ISkill.Skill = {
+//   category: 'Automation',
+//   items: [
+//     {
+//       title: 'Ansible',
+//       level: 3,
+//     },
+//     {
+//       title: 'Airflow',
+//       level: 3,
+//     },
+//     // {
+//     //   title: 'Puppet',
+//     //   level: 3,
+//     // },
+//     // {
+//     //   title: 'Chef',
+//     //   level: 2,
+//     // },
+//     {
+//       title: 'Jenkins',
+//       level: 2,
+//     },
+//     {
+//       title: 'CI/CD Pipelines',
+//       level: 1,
+//     },
+//     {
+//       title: 'Infrastructure as Code',
+//       level: 1,
+//     },
+//   ],
+// };
 
 const automation: ISkill.Skill = {
   category: 'Automation',
   items: [
+    // {
+    //   title: 'Ansible',
+    //   level: 3,
+    // },
     {
-      title: 'Ansible',
+      title: 'Airflow',
       level: 3,
     },
     {
-      title: 'Puppet',
+      title: 'Kafka',
       level: 3,
     },
-    {
-      title: 'Chef',
-      level: 2,
-    },
+    // {
+    //   title: 'Puppet',
+    //   level: 3,
+    // },
+    // {
+    //   title: 'Chef',
+    //   level: 2,
+    // },
     {
       title: 'Jenkins',
       level: 2,
@@ -116,6 +178,10 @@ const networkSecurity: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'calico',
+      level: 3,
+    },
+    {
       title: 'OpenSSH',
       level: 3,
     },
@@ -131,34 +197,51 @@ const networkSecurity: ISkill.Skill = {
       title: 'VPN Technologies',
       level: 2,
     },
+  ],
+};
+
+
+const AuthenticationAuthorization: ISkill.Skill = {
+  category: 'Authentication & Authorization',
+  items: [
     {
-      title: 'Intrusion Detection',
-      level: 1,
+      title: 'OAuth 2.0',
+      level: 3,
+    },
+    {
+      title: 'OIDC (OpenID Connect)',
+      level: 3,
+    },
+    {
+      title: 'JWT (JSON Web Token)',
+      level: 3,
     },
   ],
 };
+
+
 
 const misc: ISkill.Skill = {
   category: 'Misc',
   items: [
     {
-      title: 'Coffee Brewing',
+      title: 'Swimming',
     },
     {
-      title: "Rubik's Cube Solving",
+      title: "Fitness",
     },
-    {
-      title: 'Table Tennis',
-    },
-    {
-      title: 'Guitar Playing',
-    },
-    {
-      title: 'Joke Telling',
-    },
-    {
-      title: 'Duct Tape Crafting',
-    },
+    // {
+    //   title: 'Table Tennis',
+    // },
+    // {
+    //   title: 'Guitar Playing',
+    // },
+    // {
+    //   title: 'Joke Telling',
+    // },
+    // {
+    //   title: 'Duct Tape Crafting',
+    // },
   ],
 };
 
@@ -166,10 +249,12 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
-    kernelDevelopment,
+    CloudPlatform,
     virtualization,
+    kernelDevelopment,
     automation,
     networkSecurity,
+    AuthenticationAuthorization,
     misc,
   ],
   tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
