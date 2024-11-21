@@ -30,6 +30,44 @@ const programmingLanguages: ISkill.Skill = {
   ],
 };
 
+const frameworks: ISkill.Skill = {
+  category: 'frameworks',
+  items: [
+    {
+      title: 'FastAPI',
+      level: 3,
+    },
+    {
+      title: 'FlaskAPI',
+      level: 2,
+    },
+  ],
+};
+
+
+const Database: ISkill.Skill = {
+  category: 'Database',
+  items: [
+    {
+      title: 'PostgreSQL',
+      level: 3,
+    },
+    {
+      title: 'Milvus',
+      level: 2,
+    },
+    {
+      title: 'Redis',
+      level: 2,
+    },
+    {
+      title: 'maraDB',
+      level: 2,
+    },
+  ],
+};
+
+
 const CloudPlatform: ISkill.Skill = {
   category: 'Cloud Platform',
   items: [
@@ -249,6 +287,8 @@ const skill: ISkill.Payload = {
   disable: false,
   skills: [
     programmingLanguages,
+    frameworks,
+    Database,
     CloudPlatform,
     virtualization,
     kernelDevelopment,

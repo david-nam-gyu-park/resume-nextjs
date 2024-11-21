@@ -16,7 +16,7 @@ const experience: IExperience.Payload = {
             'Spearheading initiatives to enhance Linux kernel security',
             'Collaborating with global developers to coordinate code contributions',
           ],
-          skillKeywords: ['C', 'Linux', 'Kernel', 'Security', 'Automation'],
+          skillKeywords: ['Python', 'Shell Scripting', 'Linux', 'Kernel', 'Security', 'Automation', 'Virtualization'],
         },
         {
           title: 'MLOps Engineer',
