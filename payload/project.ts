@@ -7,7 +7,7 @@ const project: IProject.Payload = {
       title: '한국과학기술기획평가원 LLM, RAG기반 챗봇시스템 구축',
       startedAt: '2024-08',
       endedAt: '2024-12',
-      where: '한국과학기술기획평가원',
+      where: '장소 : 한국과학기술기획평가원',
       descriptions: [
         {
           content:
@@ -15,11 +15,12 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '시스템 성능과 리소스 관리에서 중요한 개선을 이루어냈습니다.',
+            '실시간 대화형 AI 서비스의 벡터 데이터베이스 성능과 리소스 관리에서 주요 개선을 이루었습니다.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: '벡터 데이터 베이스 구축 속도 30% 향상' },
+            { content: 'ETL 배치 작업 속도 20% 향상' },
+            { content: '대화형 챗봇 서비스의 벡터 데이터베이스 성능 향상을 위한 데이터 구조 최적화'}
           ],
         },
       ],
@@ -28,7 +29,7 @@ const project: IProject.Payload = {
       title: '롯데손해보험 데이터 시각화 플랫폼 개발 및 손해율 예측 데이터마트 구축',
       startedAt: '2024-03',
       endedAt: '2024-06',
-      where: '롯데손해보험',
+      where: '장소 : 롯데손해보험',
       descriptions: [
         {
           content:
@@ -49,7 +50,7 @@ const project: IProject.Payload = {
       title: 'SK innovation mysuni 데이터 시각화 플랫폼 및 교육 데이터 마트 구축',
       startedAt: '2023-10',
       endedAt: '2024-03',
-      where: 'sk innovation mysuni',
+      where: '장소 : sk innovation mysuni',
       descriptions: [
         {
           content:
@@ -70,7 +71,7 @@ const project: IProject.Payload = {
       title: '한국과학기술기획평가원 벡터데이터 기반 국가 과제 검색 시스템 구축',
       startedAt: '2023-03',
       endedAt: '2023-10',
-      where: '한국과학기술기획평가원',
+      where: '장소 : 한국과학기술기획평가원',
       descriptions: [
         {
           content:
@@ -91,7 +92,7 @@ const project: IProject.Payload = {
       title: 'MLOps 플랫폼 Back-end Engineer',
       startedAt: '2021-08',
       endedAt: '2023-02',
-      where: '광주은행, LGcns, 흥국화재, 삼성화재',
+      where: '장소 : 광주은행, LGcns, 흥국화재, 삼성화재',
       descriptions: [
         {
           content:
