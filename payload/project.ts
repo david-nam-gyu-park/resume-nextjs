@@ -33,15 +33,16 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '',
+            '롯데손해보험의 장기보험 손해율 분석을 위한 데이터 시각화 플랫폼 개발 구축과 데이터 ETL 파이프라인과, 데이터 마트를 구축하는 프로젝트입니다. 이를 통해 장기보험 손해율의 원인을 쉽게 분석하고, 보험상품에 대한 의사결정을 쉽고 빠르게 제공하는 것을 목표로 합니다.',
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
+            '대용량 데이터 처리 속도와 정확도를 개선하였습니다. 또한 데이터 시각화를 통해서 보고 소요시간과 의사결정 시간을 단축하였습니다.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: '대용량 데이터 일 배치 ETL 성능 40% 향상 구축' },
+            { content: '일일 배치 데이터 시각화 속도 30% 향상' },
+            { content: '데이터 거버넌스에 맞춘 데이터 웨어하우스 구축' },
           ],
         },
       ],
@@ -54,7 +55,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '',
+            'SK 그룹의 전직원을 대상으로 하는 교육 플랫폼의 데이터를 활용하여 각 계열사의 교육 참여율, 이수 시간, 희망 교육 등을 분석하고 시각화하는 것을 목표로한 프로젝트 입니다. 데이터를 단순히 조회, 검색하는 비효율 적인 방법을 시각화툴과, 자동화된 데이터파이프라인을 구축하여 정확한 인사이트를 파악하는 방식으로 발전시키는 것을 목표로 합니다.',
         },
         {
           content:
