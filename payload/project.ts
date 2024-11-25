@@ -59,7 +59,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
+            '대용량 데이터 처리의 속도 증진과 클라우드 서비스의 비용 개선을 이루었습니다. 또한 데이터 시각화를 통해서 mysuni 교육 프로그램의 컨텐츠 품질을 향상시켰습니다.',
           weight: 'MEDIUM',
           descriptions: [
             { content: '30% improvement in system resource efficiency' },
