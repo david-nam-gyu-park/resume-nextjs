@@ -28,7 +28,7 @@ const project: IProject.Payload = {
     },
     {
       title: '롯데손해보험 데이터 시각화 플랫폼 개발 및 손해율 예측 데이터마트 구축',
-      startedAt: '2024-03',
+      startedAt: '2024-04',
       endedAt: '2024-06',
       where: '장소 : 롯데손해보험',
       descriptions: [
@@ -72,7 +72,7 @@ const project: IProject.Payload = {
     {
       title: '한국과학기술기획평가원 벡터데이터 기반 국가 과제 검색 시스템 구축',
       startedAt: '2023-03',
-      endedAt: '2023-10',
+      endedAt: '2023-09',
       where: '장소 : 한국과학기술기획평가원',
       descriptions: [
         {
@@ -81,11 +81,12 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
+            '과학기술 및 관련 사업 정보를 효율적으로 검색하기 위해 벡터데이터베이스를 활용하여 데이터 스키마를 설계하고, 대규모 언어모델과 통합하여 검색 성능을 개선했습니다. 이를 통해 검색 응답 시간을 기존 대비 30% 이상 단축하였으며, 연관도 기반의 검색 정확도를 향상시켰습니다.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: '벡터 데이터 검색을 위한 효율적인 인덱싱 구조를 구현하여 검색 속도를 향상' },
+            { content: 'PostgreSQL과 연동하여 메타데이터 관리 및 데이터베이스 성능 최적화를 수행' },
+            { content: '데이터 처리 파이프라인 최적화로 검색 응답 시간 단축' },
           ],
         },
       ],
@@ -97,56 +98,23 @@ const project: IProject.Payload = {
       where: '장소 : 광주은행, LGcns, 흥국화재, 삼성화재',
       descriptions: [
         {
+          weight: 'BOLD',
           content:
-            '',
+            'AI 모델의 개발 환경 제공, 모델배포, 운영, 업데이트까지의 전체 라이프사이클을 관리하여, 최적화하여 AI 서비스의 품질과 효율성 향상시키 것을 목표로 합니다.',
         },
         {
           content:
-            'Achieved significant improvements in system performance and resource management.',
-          weight: 'MEDIUM',
+            '모델 서빙 및 배포 기능 개발을 담당하여 AI 모델의 운영을 위한 서비스 전환과 배포를 자동화하였으며, 서비스 안정성과 효율성을 향상시켰습니다.',
+          weight: 'BOLD',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: '모델 배포 프로세스를 자동화하여 배포 시간 40% 단축' },
+            { content: 'Model Repository Manager 구축으로 모델 버전 관리와 성능 지표 추적 기능 구현' },
+            { content: 'Docker 기반 모델 컨테이너화로 시스템 리소스 사용량  감소' },
+            { content: 'Kubernetes 클러스터 자동 배포 파이프라인으로 운영 효율성 향상' },
           ],
         },
       ],
     },
-    // {
-    //   title: 'Linux Kernel Optimization Project',
-    //   startedAt: '2020-06',
-    //   where: 'Linux Foundation',
-    //   descriptions: [
-    //     {
-    //       content:
-    //         'Initiated and lead a collaborative project aimed at optimizing the Linux Kernel for various hardware architectures.',
-    //     },
-    //     {
-    //       content:
-    //         'Achieved significant improvements in system performance and resource management.',
-    //       weight: 'MEDIUM',
-    //       descriptions: [
-    //         { content: '30% improvement in system resource efficiency' },
-    //         { content: 'Job Scheduler Refactor and Optimization' },
-    //       ],
-    //     },
-    //   ],
-    // },
-    // {
-    //   title: 'Global Linux Bootcamp',
-    //   startedAt: '2017-05',
-    //   endedAt: '2019-12',
-    //   where: 'Open Source Community',
-    //   descriptions: [
-    //     {
-    //       content:
-    //         'Organized and conducted training bootcamps focusing on Linux system engineering skills.',
-    //     },
-    //     {
-    //       content:
-    //         'Successfully trained over 5,000 participants in system administration and security. ',
-    //     },
-    //   ],
-    // },
   ],
 };
 

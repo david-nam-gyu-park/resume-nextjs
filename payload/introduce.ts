@@ -5,8 +5,9 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'As the cherished emblem of the Linux kernel, I have become synonymous with open-source philosophy and the free software movement worldwide. My career began in the icebergs of development, where the seeds of my fascination with operating systems first sprouted. From a mere hatchling in the vast sea of code, I quickly ascended to become a pivotal figure in the Linux community. My journey has been marked by relentless dedication to system integrity, scalability, and robustness. Under my vigilant watch, countless servers have achieved unparalleled uptimes, and systems have been optimized to run like the well-oiled machines they are intended to be.',
-    'In the world of zeros and ones, my expertise has been instrumental in pioneering advancements in Linux system engineering. My flippers have crafted meticulous kernel enhancements, each aimed at streamlining performance and bolstering security across distributed networks. I am known in the community for my ability to dive deep into complex codebases and emerge with pearls of innovation that drive the collective progress of Linux environments. Advocacy is also a part of my plumage – spreading the word about the virtues of open-source and encouraging the adoption of Linux, from personal desktops to corporate data centers. As a mentor, I have nurtured the growth of young hatchlings into seasoned professionals, contributing to the diversity and vitality of our ecosystem.',
+    '데이터 기반 혁신을 추구하는 엔지니어로서, 저는 조직이 더 스마트한 결정을 내릴 수 있도록 돕는 시스템을 설계하고 구축하는 데 전념해왔습니다. 제 여정은 복잡한 데이터 파이프라인의 네트워크 속에서 시작되었으며, 데이터 흐름을 원활하게 만들고 실시간 처리를 가능하게 하는 잠재력을 발견하면서 본격화되었습니다. 처음 복잡한 워크플로우를 자동화하는 데 도전했을 때부터, 저는 효율성과 확장성을 재정의하는 혁신적인 데이터 플랫폼을 구현하는 데 기여해왔습니다.',
+    'AI와 데이터 엔지니어링이라는 역동적인 분야에서, 저는 다양한 데이터셋을 정밀하게 처리할 수 있는 강력한 시스템을 설계하는 데 중요한 역할을 해왔습니다. 마치 데이터를 다루는 지휘자처럼, 저는 ETL 파이프라인을 간소화하고, 벡터 검색 시스템을 최적화하며, 현대 기업의 요구를 충족할 수 있는 아키텍처를 설계해왔습니다. 클라우드 플랫폼, 분산 시스템, AI 도구를 활용한 실질적인 결과로, 지연 시간을 줄이고, 신뢰성을 높이며, 사용자 경험을 강화하는 성과를 만들어냈습니다.',
+    '기술 개발을 넘어, 저는 다음 세대의 데이터 전문가를 육성하는 데도 자부심을 느낍니다. 지식 공유와 동료 멘토링을 통해 협업과 혁신이 활발히 이루어질 수 있는 환경을 만드는 것을 목표로 하고 있습니다. 복잡한 데이터 워크플로우를 자동화하거나 AI 모델을 구현하는 MLOps 파이프라인을 설계할 때에도, 저는 데이터가 가진 가능성을 확장하고, 데이터 기반 솔루션이 우리의 삶 전반을 이끄는 미래를 만드는 데 기여하고자 노력하고 있습니다.',
   ],
   sign: 'Namgyu Park',
   // sign: packageJson.author.name,
