@@ -42,7 +42,7 @@ const project: IProject.Payload = {
           weight: 'MEDIUM',
           descriptions: [
             { content: '대용량 데이터 일 배치 ETL 성능 40% 향상 구축' },
-            { content: '일일 배치 데이터 시각화 속도 30% 향상' },
+            { content: '일일 배치 데이터 시각화까지 속도 30% 향상' },
             { content: '데이터 거버넌스에 맞춘 데이터 웨어하우스 구축' },
           ],
         },
@@ -60,11 +60,11 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '데이터 시각화를 통해서 mysuni 교육 프로그램의 컨텐츠 품질을 향상시켰습니다.',
+            '데이터 시각화를 통해 여러 교육 프로그램의 참여율, 선호도, 희망 교육 프로그램에 대한 정보를 명확히 제공하여 콘텐츠 관리자의 의사결정 효율성을 향상시켰습니다.',
           weight: 'MEDIUM',
           descriptions: [
-            { content: '30% improvement in system resource efficiency' },
-            { content: 'Job Scheduler Refactor and Optimization' },
+            { content: 'AWS CLoud servie 비용 25% 감소(초기비용 연 1억 2천에서 9천으로 감축)' },
+            { content: '' },
           ],
         },
       ],
