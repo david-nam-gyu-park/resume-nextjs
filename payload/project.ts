@@ -15,12 +15,13 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '실시간 대화형 AI 서비스의 벡터 데이터베이스 성능과 리소스 관리에서 주요 개선을 이루었습니다.',
+            '인공지능 모델과 RAG를 이용하여 문서 생성, 검색을 통해 on-premise환경에서 업무효율성 향상을 이루었습니다.',
           weight: 'MEDIUM',
           descriptions: [
+            { content: '배치 파이프라인을 통한 지속적인 최신정보 업데이트로 최신정보 반영율 90%향상' },
             { content: '벡터 데이터 베이스 구축 속도 30% 향상' },
             { content: 'ETL 배치 작업 속도 20% 향상' },
-            { content: '대화형 챗봇 서비스의 벡터 데이터베이스 성능 향상을 위한 데이터 구조 최적화'}
+            { content: '대화형 챗봇 서비스의 벡터 데이터베이스 성능 향상을 위한 데이터 구조 최적화' }
           ],
         },
       ],
@@ -37,7 +38,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '대용량 데이터 처리 속도와 정확도를 개선하였습니다. 또한 데이터 시각화를 통해서 보고 소요시간과 의사결정 시간을 단축하였습니다.',
+            '일일 대용량 데이터를 처리하고 이를 시각화함으로써 보고 과정에 소요되는 시간과 의사결정에 필요한 시간을 효과적으로 단축시켰습니다.',
           weight: 'MEDIUM',
           descriptions: [
             { content: '대용량 데이터 일 배치 ETL 성능 40% 향상 구축' },
@@ -59,7 +60,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            '대용량 데이터 처리의 속도 증진과 클라우드 서비스의 비용 개선을 이루었습니다. 또한 데이터 시각화를 통해서 mysuni 교육 프로그램의 컨텐츠 품질을 향상시켰습니다.',
+            '데이터 시각화를 통해서 mysuni 교육 프로그램의 컨텐츠 품질을 향상시켰습니다.',
           weight: 'MEDIUM',
           descriptions: [
             { content: '30% improvement in system resource efficiency' },
