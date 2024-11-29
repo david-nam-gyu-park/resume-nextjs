@@ -54,7 +54,7 @@ const Database: ISkill.Skill = {
     },
     {
       title: 'Milvus',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Redis',
