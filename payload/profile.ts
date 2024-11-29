@@ -38,7 +38,7 @@ const profile: IProfile.Payload = {
   ],
   notice: {
     title:
-      "The content below is all fictitious and is just a sample from 'https://github.com/uyu423/resume-nextjs'.",
+      "안녕하세요. LLM Ops와 RAG를 위한 플랫폼을 연구하고 서비스를 제공하는 박남규 입니다.",
     icon: faBell,
   },
 };

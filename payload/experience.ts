@@ -17,9 +17,9 @@ const experience: IExperience.Payload = {
           //   'Collaborating with global developers to coordinate code contributions',
           // ],
           descriptions: [
+            '대규모 모델 서빙을 위한 Triton Inference Server 및 vLLM, sgLang 기반 서빙 시스템 구축',
             '데이터 수집, 처리 및 저장을 위한 ETL 파이프라인 설계 및 구축',
             '클라우드 플랫폼(AWS, GCP 등) 기반의 데이터 인프라 설계 및 관리',
-            '대규모 모델 서빙을 위한 Triton Inference Server 및 vLLM 기반 서빙 시스템 구축',
             '데이터 거버넌스 프레임워크 수립 및 데이터 품질 관리 정책 구현',
             // '데이터 품질 및 무결성을 보장하기 위한 데이터 검증 및 모니터링 시스템 개발',
             '비즈니스 의사결정을 지원하는 데이터 시각화 대시보드 설계 및 개발',
